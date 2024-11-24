@@ -5,12 +5,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-  }
-  
-  /* Margen negro a los lados */
-  body {
-    margin: 0 10%;
-    background-color: #f4f4f4;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   
   /* Estilos para la cabecera */
