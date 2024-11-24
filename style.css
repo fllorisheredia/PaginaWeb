@@ -1,0 +1,54 @@
+/* Estilos para el body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Margen negro a los lados */
+  body {
+    margin: 0 10%;
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilos para la cabecera */
+  header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    margin: 20px;
+  }
+  
+  /* Estilos para los bloques de imágenes y texto */
+  .image-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-text img {
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .image-text p {
+    flex: 1;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  /* Diseño de columnas para imágenes */
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
